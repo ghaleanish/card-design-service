@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+*{
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #fff;
+}
+
+.card{
+    display:inline-flex;
+    width:1200px;
+    flex-wrap: wrap;
+   
+}
+
+.service-box {
+    width: 320px;
+    box-shadow: 12px 12px 12px #d3cfcf;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 5px solid #2779f9;
+    margin: 8px;
+    /* box-sizing: border-box;} */
+}
+
+.card h2 p{
+    text-align: center;
+    padding:10px ;
+  
+}
+.service-box .icon {
+    background-color: #2779f9;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;}
+
+/* .service-box .icon{
+    border-radius: 50%;
+    background-color: aliceblue;
+    height:50px;
+    width:50px;
+    font-size: 20px; */
+   
+   /* border-bottom: 5px solid #2779f9; */
+.service-box:hover{
+   background-color:#2779f9;
+   color:#fff;
+
+   }
+.service-box:hover .icon{
+    background-color:#fff;
+    color: #2779f9;
+}
